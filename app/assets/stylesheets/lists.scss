@@ -42,9 +42,9 @@ main h2 {
     background: transparent center/cover;
   }
 
-  li:nth-child(1) { background-image: url("drama_cover.jpg"); }
-  li:nth-child(2) { background-image: url("girls_cover.jpg"); }
-  li:nth-child(3) { background-image: url("comedy_cover.jpg"); }
+  li:nth-child(1) { background-image: image-url("drama_cover.jpg"); }
+  li:nth-child(2) { background-image: image-url("girls_cover.jpg"); }
+  li:nth-child(3) { background-image: image-url("comedy_cover.jpg"); }
 
   a {
     font-size: 1.5rem;
@@ -94,6 +94,6 @@ main h2 {
   }
 }
 
-#list-drama { background-image: url("drama_cover.jpg"); }
-#list-girls-power { background-image: url("girls_cover.jpg"); }
-#list-comedy { background-image: url("comedy_cover.jpg"); }
+#list-drama { background-image: image-url("drama_cover.jpg"); }
+#list-girls-power { background-image: image-url("girls_cover.jpg"); }
+#list-comedy { background-image: image-url("comedy_cover.jpg"); }
