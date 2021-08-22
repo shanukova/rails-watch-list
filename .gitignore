@@ -37,3 +37,4 @@ yarn-debug.log*
 
 # macOS files
 .DS_Store
+.env*
